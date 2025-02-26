@@ -2,6 +2,7 @@
 layout: post
 title: "Programmer's Guide: The "set" command in bash"
 date: 2018-12-16
+published: false
 ---
 
 The "set" command in shell allows you to set various shell options and positional parameters. The purpose of this post is to highlight how much this command has been helpful to me in my bash programming. I would not go into much depth about all the possible flag, because you can find many posts and documentation on the internet, like [this post](https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html#The-Set-Builtin) by GNU, which cover all the possible options that the "set" command provides. I will mainly focus on two options,  

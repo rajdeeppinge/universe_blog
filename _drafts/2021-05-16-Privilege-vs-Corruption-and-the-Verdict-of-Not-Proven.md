@@ -2,6 +2,7 @@
 layout: post
 title: "Privilege vs Corruption and the Verdict of "Not Proven""
 date: 2021-05-16
+published: false
 ---
 
 P. V. Narasimha Rao became the Prime Minister of India in 1991 shortly after the assassination of Rajiv Gandhi during the election campaign. He inducted Dr. Manmohan Singh, the then former governor of the Reserve Bank of India and former deputy chairman of the Planning Commission as the Finance Minister in the new cabinet. They spearheaded the 1991 economic reforms and liberalization which opened up the economy for foreign investments and ended the license permit raj. Crucially, it triggered the Indian economy to grow at a much faster pace than the embarrassing 3.5% Hindu rate of growth as some would mockingly term it.  
