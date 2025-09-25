@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  jekyll:
+    image: universe_blog_jekyll:20250924_03
+    container_name: universe-blog-local
+    ports:
+      - "4000:4000"
+      - "35729:35729" # for livereload
+    volumes:
+      - .:/usr/src/app:cached             # mount source code
+      - jekyll-gems:/usr/local/bundle     # mount gems separately
+    # Jekyll serve options:
+    # --livereload   -> starts a WebSocket server (port 35729) and injects a script
+    #                   into pages so the browser auto-refreshes after rebuilds.
+    # --force_polling -> forces Jekyll to detect file changes by polling instead
+    #                    of relying on OS file events (needed for Docker volumes).
+    command: bundle exec jekyll serve --host 0.0.0.0 --livereload --force_polling
+
+volumes:
+  jekyll-gems:
